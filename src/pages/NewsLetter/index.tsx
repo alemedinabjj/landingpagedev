@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../../components/Navbar/styles'
-import { ContainerGlobal } from '../../globalStyle'
+import { ContainerGlobal } from '../../globalStyles/globalStyle'
 import { Title } from '../Home/styles'
 import { Container, Form, Input } from './styles'
 

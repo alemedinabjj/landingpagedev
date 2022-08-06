@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerGlobal } from '../../../globalStyle'
+import { ContainerGlobal } from '../../../globalStyles/globalStyle'
 import { Title } from '../styles'
 import { ClientCard } from './styles'
 import { Content } from './styles'
