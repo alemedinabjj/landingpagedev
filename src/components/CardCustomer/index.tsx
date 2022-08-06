@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, ContainerCard, NumberDescription, TitleDescription } from './styles'
 
 const CardCustomer = () => {
