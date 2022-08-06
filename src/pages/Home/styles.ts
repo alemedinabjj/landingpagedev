@@ -12,7 +12,7 @@ export const Container = styled.main.attrs((props: propTypes) => ({paddingTop: p
   align-items: center;
   width: 100%;
   height: fit-content;
-  padding-top: ${props => props.paddingTop === 'secondary' ? '0' : '5rem'};
+  padding-top: ${props => props.paddingTop === 'secondary' ? '0' : '7rem'};
 
 `;
 

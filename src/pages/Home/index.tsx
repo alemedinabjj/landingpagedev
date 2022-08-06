@@ -6,6 +6,7 @@ import { ContainerGlobal, Wrapper } from '../../globalStyle'
 import HOMESVG from '../../assets/home.svg'
 import SatisfiedClient from '../../components/SatisfiedClient'
 import { ContainerCard } from '../../components/SatisfiedClient/styles'
+import Services from './Services'
 
 const index = () => {
   return (

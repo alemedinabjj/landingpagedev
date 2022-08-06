@@ -3,13 +3,20 @@ import styled from 'styled-components'
 export const Navbar = styled.nav`
 
   width: 100%;
-  padding-inline: 2rem;
   position: fixed;
+  padding-inline: var(--padding-base);
   background: var(--bg-color);
-  height: 70px;
+  height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  transition: .3s ease;
+  z-index: 12;
+
+  &.open {
+    height:70px;
+  }
+
   
 `
 
@@ -92,3 +99,4 @@ export const Button = styled.button`
 
 
 `;
+

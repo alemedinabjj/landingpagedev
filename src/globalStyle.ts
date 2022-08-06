@@ -45,6 +45,17 @@ body {
     --font-size-small: 1.2rem;
     --font-size-tiny: 1rem;
     --font-size-large: 2.4rem;
+
+
+    //paddings 
+
+    --padding-base: 10rem;
+    --padding-small: 1.5rem;
+    --padding-top: 1rem;
+
+    //radius
+
+    --border-radius: 0.5rem;
   }
 
   button, input, textarea {
