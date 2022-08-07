@@ -71,12 +71,13 @@ export const A = styled.a`
     background: var(--secondary-color);
     width: 0%;
     bottom:0;
-    left: 0;
+    right: 0;
     transition: .3s;
   }
 
 
   &:hover::after {
+    left: 0;
     width: 100%;
   }
 
