@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Card, Title, Description, Content } from './styles'
 import { Value } from './styles'
 import { useState, useEffect } from 'react'
-import { ContainerGlobal } from '../../../globalStyles/globalStyle'
+import { ContainerGlobal } from '../../../globalStyles/GlobalStyle'
 
 
 const Services = () => {

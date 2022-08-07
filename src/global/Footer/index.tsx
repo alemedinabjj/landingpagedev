@@ -1,6 +1,6 @@
 
 import { Button } from '../../components/Navbar/styles'
-import { ContainerGlobal } from '../../globalStyles/globalStyle'
+import { ContainerGlobal } from '../../globalStyles/GlobalStyle'
 import { Input } from '../../pages/NewsLetter/styles'
 import { ContentResources, ContentResourcesItem, Subscribe } from './style'
 
