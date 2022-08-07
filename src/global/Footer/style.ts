@@ -84,7 +84,6 @@ export const ContentResourcesItem = styled.div`
   button {
     display: inline;
     padding-inline: var(--padding-small);
-    border: 1px solid var(--text-color-opacity);
     border-radius: var(--border-radius);
     font-size: var(--font-size-small);
     color: var(--text-color);

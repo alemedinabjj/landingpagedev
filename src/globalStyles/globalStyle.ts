@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
+
 
 const GlobalStyle = createGlobalStyle`
 
@@ -75,7 +75,9 @@ type propTypes ={
 
 export const ContainerGlobal = styled.div.attrs((props: propTypes) => ({background: props.background}))`
 
-  width: 100%;
+  width: 100%;  
+  max-width: 2250px;
+  margin: 0 auto;
   color: ${props => props.color};
   background: ${props => props.background === 'secondary' ? 'var(--bg-color)' : 'var(--body-color)'};
   height: fit-content;
