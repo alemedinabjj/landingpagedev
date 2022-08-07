@@ -1,6 +1,6 @@
 import React from 'react'
 import CardCustomer from '../../../components/CardCustomer'
-import { ContainerGlobal } from '../../../globalStyles/GlobalStyle'
+import { ContainerGlobal } from '../../../styles/GlobalStyle'
 import * as S from '../styles'
 import { useState, useEffect } from 'react'
 

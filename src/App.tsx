@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Footer from './global/Footer'
-import GlobalStyle from './globalStyles/GlobalStyle'
+import GlobalStyle from './styles/GlobalStyle'
 import Clients from './pages/Home/Clients'
 import Customer from './pages/Home/Customer'
 import Home from './pages/Home/index'
