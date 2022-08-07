@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 
 // definir cor do svg
 
@@ -94,4 +94,4 @@ export const Wrapper = styled.div`
 
 `
 
-export default GlobalStyle;
+
